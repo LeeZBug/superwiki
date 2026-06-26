@@ -12,3 +12,20 @@
 -   **快速检索**：通过标准化的标签和目录，实现秒级定位解决方案。
 -   **避免重复造轮子**：减少团队成员在相同问题上的时间浪费。
 -   **新人赋能**：作为 Onboarding 资料，帮助新成员快速了解系统历史与常见陷阱。
+
+```text
+.
+├── README.md                 # 项目说明
+├── CONTRIBUTING.md           # 贡献指南与写作规范
+├── infrastructure/           # 基础设施与运维
+│   ├── etcd/
+│   ├── kubernetes/
+│   ├── mysql/
+│   └── nginx/
+├── backend/                  # 后端开发与架构
+│   ├── golang/
+│   ├── java/
+│   └── python/
+├── frontend/                 # 前端与客户端
+├── devops/                   # CI/CD、监控与工具链
+└── others/                   # 其他未分类问题
